@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-size: 28px;
+  }
+
+/* jeg fik hjælp fra w3schooles til stilingen af navbar (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky)*/
+.topnav a {
+    float: right;
+    display: block;
+    color:black;
+    text-align: right;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Gothic A1, ExtraLight;
+  }
+
+  
+.topnav a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+.topnav a.active {
+    color: black;
+    text-decoration: underline;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+.mig{
+    background-image: url(images/lys.jpg);
+    margin-top: 0px;
+}
+
+h4{
+    padding-top: 50px;
+    font-family: Gothic A1;
+    font-size: 15px;
+    margin: 0px;
+}
+
+h2{
+    font-family:Gothic A1;
+    font-size: 27px;
+    margin: 0px;
+}
+
+h5{
+    font-family:Gothic A1;
+    font-size: 15px;
+    margin: 0px;
+}
+
+h4,h2,h5{
+    margin-left: 16px;
+}
+
+.portrat{
+    margin-left: 35px;
+    margin-top: 10px;
+}
