@@ -1,6 +1,11 @@
 body {
     margin: 0;
     font-size: 28px;
+    background-image: url(images/lys.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
   }
 
 /* jeg fik hjælp fra w3schooles til stilingen af navbar (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky)*/
@@ -29,11 +34,7 @@ body {
   * {
     box-sizing: border-box;
   }
-  
-.mig{
-    background-image: url(images/lys.jpg);
-    margin-top: 0px;
-}
+
 
 h4{
     padding-top: 50px;
@@ -54,11 +55,91 @@ h5{
     margin: 0px;
 }
 
-h4,h2,h5{
-    margin-left: 16px;
+p{
+    font-family: Charter;
+    font-size: 15px;
 }
 
+h4,h2,h5,p{
+    margin-left: 12px;
+}
+
+
+
 .portrat{
-    margin-left: 35px;
-    margin-top: 10px;
+    margin: 12px;
+    margin-top: 50px;
+}
+
+
+.kontakt{
+    background-color:#F5F2EC;
+    font-family: Gothic A1;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*nedenstående er lave med hjælp fra w3schools (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mixed_columns)*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
 }
