@@ -7,8 +7,22 @@ body {
     background-size: 100% 100%;
     
   }
+ .logocontainer{
+   display: flex;
+   float: left;  
+}
 
-/* jeg fik hjælp fra w3schooles til stilingen af navbar (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky)*/
+.main-header .logocontainer .topnav{
+    font-family: Gothic A1, ExtraLight;
+  margin-bottom: 0;
+  margin-top: 11px;
+  margin-left: opx;
+  width: 150px;
+}
+
+
+
+/* jeg fik hjælp fra w3schooles til stylingen af navbar (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky)*/
 .topnav a {
     float: right;
     display: block;
@@ -20,6 +34,9 @@ body {
     font-family: Gothic A1, ExtraLight;
   }
 
+.topnav{
+    display: block;
+}
   
 .topnav a:hover {
     color: black;
@@ -36,36 +53,6 @@ body {
   }
 
 
-h4{
-    padding-top: 50px;
-    font-family: Gothic A1;
-    font-size: 15px;
-    margin: 0px;
-}
-
-h2{
-    font-family:Gothic A1;
-    font-size: 27px;
-    margin: 0px;
-}
-
-h5{
-    font-family:Gothic A1;
-    font-size: 15px;
-    margin: 0px;
-}
-
-p{
-    font-family: Charter;
-    font-size: 15px;
-}
-
-h4,h2,h5,p{
-    margin-left: 12px;
-}
-
-
-
 .portrat{
     margin: 12px;
     margin-top: 50px;
@@ -80,6 +67,11 @@ h4,h2,h5,p{
 }
 
 
+footer{
+    display: block;
+    background-color: #EFE5DC;
+}
+
 /*nedenstående er lave med hjælp fra w3schools (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_mixed_columns)*/
 * {
   box-sizing: border-box;
@@ -91,6 +83,15 @@ h4,h2,h5,p{
   width: 25%;
   padding: 10px;
 }
+
+h2{
+margin: 0px;
+}
+
+h4{
+    margin: 0px;
+}
+
 
 /* Clear floats after the columns */
 .row:after {
