@@ -19,14 +19,18 @@ body {
 }
 
 
-.logocontainer .topnav{
+.topnav{
     font-family: Gothic A1, ExtraLight;
-  margin-bottom: 0;
-  margin-top: 11px;
-  margin-left: opx;
-  width: 150px;
+    margin-bottom: 0;
+    margin-top: 11px;
+    /*margin-left: opx;*/
+    width: 150px;
+    text-align: center;
 }
 
+.nav{
+    text-align: center;
+}
 
 
 /* jeg fik hjælp fra w3schooles til stylingen af navbar (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky)*/
@@ -44,13 +48,10 @@ ul{
     display: flex;
     margin: 0;
     padding: 0;
+    text-align: center;
+
   }
 
-
-
-.topnav{
-    text-align: center;
-}
   
 .topnav a:hover {
     color: black;
@@ -118,7 +119,7 @@ footer{
   
   body {
     padding: 20px;
-    font-family: Arial;
+    font-family: Gothic A1, ExtraLight;
   }
   
   /* Center website */
@@ -137,6 +138,7 @@ footer{
   }
   
   /* Add padding BETWEEN each column */
+  /* dette laver mellemrum mellem boksene*/
   .row, 
   .row > .column {
     padding: 8px;
@@ -164,6 +166,7 @@ footer{
     border-radius: 1px;
     border-color: #fdfffd;
     border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
 
   }
 
@@ -180,9 +183,6 @@ footer{
       width: 100%;
     }
   }
-
-
-
 
 /*her stopper stylinen til side 2 (projekter)*/
 
