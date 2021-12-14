@@ -61,7 +61,7 @@ ul{
     margin-top: auto;
 }
 
-h2{
+h1{
     margin: 0px;
     font-size: 30px;
     margin-left: 10px;
@@ -144,8 +144,13 @@ footer{
     border-style: solid;
     border-radius: 0px;
 }
-  
   /* dette laver mellemrum mellem boksene*/
+
+/* her kommer styling af dans.html siden*/
+
+
+
+
   .row, 
   .row > .column {
     padding: 10px;
