@@ -120,40 +120,35 @@ footer{
 
 
 /*dette er stylinen til side 2 (projekter)*/
-
   
-  body {
-    font-family: Gothic A1, ExtraLight;
-  }
-  
-  /* Center website */
   .main {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
   }
   
-  h1 {
+  h3 {
     font-size: 50px;
     word-break: break-all;
+    font-family: Gothic A1, ExtraLight;
+    font-size: 20px;
   }
+
+.img{
+    border-color: #fdfffd;
+    border-style: solid;
+    border-radius: 0px;
+}
   
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column */
   /* dette laver mellemrum mellem boksene*/
   .row, 
   .row > .column {
-    padding: 8px;
+    padding: 10px;
   }
   
-  /* Create four equal columns that floats next to each other */
  /* får boksene til at floate ved siden af hinanden*/
-
   .column {
-    float: left;
+    float: right;
     width: 25%;
   }
   
@@ -166,11 +161,8 @@ footer{
   
   /* Content */
   .content {
-    background-color: #fdfffd;
-    padding: 10px;
-    border-radius: 1px;
-    border-color: #fdfffd;
-    border-style: solid;
+    background-color: transparent;
+    padding: 2px;
     font-family: 'Times New Roman', Times, serif;
 
   }
