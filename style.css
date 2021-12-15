@@ -148,7 +148,7 @@ footer{
 
 /* her kommer styling af dans.html siden*/
 
-.tekst h1, h2, h3{
+.tekst h1, h2, h4{
     font-size: 25px;
     font-family: Gothic A1, ExtraLight;
     margin: 10px;
@@ -172,7 +172,7 @@ footer{
     text-align: center;
   }
   
-.columndans img, .contemp img {
+.columndans img, .contemp  {
     margin-top: 8px;
     vertical-align: middle;
     margin-bottom: 20px;
