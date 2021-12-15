@@ -148,6 +148,53 @@ footer{
 
 /* her kommer styling af dans.html siden*/
 
+.tekst h1, h2, h3{
+    font-size: 25px;
+    font-family: Gothic A1, ExtraLight;
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tekst p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+
+.dans1 {
+    display: flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    text-align: center;
+  }
+  
+.columndans img, .contemp img {
+    margin-top: 8px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+  }
+
+.contemp{
+    background-color:#f5f2ec;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
